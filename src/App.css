@@ -1,0 +1,43 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px;
+  width: 200px;
+  background-color: #fff;
+}
+
+body {
+  background-color: grey;
+}
+
+.anime-list {
+  padding: 2px;
+  margin: 6px;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  font-size: 0.6rem;
+  margin-top: 1px;
+  background-color: #fff;
+}
+
+img {
+  width: 20px;
+  height: 100%;
+}
+
+.search-with-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
